@@ -36,6 +36,11 @@ html,body
   color: rgb(234, 237, 238)
 }
 
+.h5 {
+  font-family: 'cyrano_demoregular';
+  color: rgb(234, 237, 238)
+}
+
 /* Nav Bar */
 
 nav {
@@ -223,6 +228,7 @@ hr {
 
 
 .box h5{
+  font-family: 'cyrano_demoregular';
   color: #fff;
   z-index: 4;
   padding-top: 40%;
