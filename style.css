@@ -317,9 +317,115 @@ hr {
   width: 90vw;
 }
 
-/* .banners .img {
-  width: 100%;
-} */
+
+
+/* Footer */
+
+* {
+    box-sizing: border-box;
+    margin-top: 10px; 
+    padding: 0px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: rgb(14, 40, 43);
+    color: #bbb;
+    line-height: 1.0;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: none;
+}
+.ft-title {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 0.625rem;
+    padding-top: 10px;
+}
+
+.ft-main {
+    /* padding: 1.25rem 1.875rem; */
+    display: flex;
+    width: 100vw;
+  
+    
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+}
+input[type="submit"] {
+    background-color: #7e7e73;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px rgb(14, 40, 43) solid; 
+    padding-top: 1.25rem;
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: rgb(31, 30, 30);
+}
+.ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;       /* same as flex-grow: 1; */
+}
+
+
+/* MEYER RESET */
 
 /* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
