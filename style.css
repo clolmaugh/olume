@@ -15,8 +15,8 @@ html,body
 
 @font-face {
     font-family: 'mirtha_displayregular';
-    src: url('mirtha-display-regular-webfont.woff2') format('woff2'),
-         url('mirtha-display-regular-webfont.woff') format('woff');
+    src: url('/fonts/mirtha-display-regular-webfont.woff') format("woff"),
+         url('/fonts/mirtha-display-regular-webfont.woff2') format("woff2");
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@ html,body
 
 @font-face {
   font-family: 'cyrano_demoregular';
-  src: url('cyrano_demo-webfont.woff2') format('woff2'),
-       url('cyrano_demo-webfont.woff') format('woff');
+  src: url('/fonts/cyrano_demo-webfont.woff2') format('woff2'),
+       url('/fonts/cyrano_demo-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -34,11 +34,13 @@ html,body
 .h3 {
   font-family: 'cyrano_demoregular';
   color: rgb(234, 237, 238)
+  height: 15px;
 }
 
 .h5 {
   font-family: 'cyrano_demoregular';
   color: rgb(234, 237, 238)
+  height: 20px;
 }
 
 /* Nav Bar */
@@ -164,6 +166,7 @@ hr {
   /* padding: 120px 5%; */
   max-width:1330px;
   margin:0 auto;
+  margin-bottom: 20%;
 }
 
 .topcol {
@@ -302,7 +305,21 @@ hr {
   }
 }
 
+/* Banners */
 
+.banners {
+  width: 40vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#elixirbannerImg {
+  width: 90vw;
+}
+
+/* .banners .img {
+  width: 100%;
+} */
 
 /* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
