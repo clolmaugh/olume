@@ -30,8 +30,10 @@ html,body
 
 }
 
-.testFont {
+h2 {
   font-family: 'cyrano_demoregular';
+  font-size: 65px;
+  color: rgb(41, 40, 40);
 }
 
 h3 {
@@ -81,7 +83,7 @@ h6 {
   height: 40px;
   position: absolute;
   top: 10px;
-  left: 45%;
+  left: 47%;
 }
 
 /* .menu {
@@ -327,8 +329,44 @@ a {
   padding: 5%;
 }
 
+@media only screen and (max-width: 768px) {
+  .descriptionImage{
+    width: 100%;
+  }
+}
+
+.ingdescription {
+  display:flex;
+  justify-content: center;
+  /* padding: 5%; */
+}
+
 .descriptionImage{
-  height: 300px;
+  width: 80%;
+}
+
+
+.goldbutton {
+  display: flex;
+  justify-content: center;
+  /* height: 2%; */
+  margin-top: -15vh;
+  margin-bottom: 10vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .goldbutton {
+    justify-content: center;
+    margin-top: 0px;
+    /* margin-bottom: 10vh; */
+  }
+}
+
+.btnimg {
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  padding-left: 28%;
 }
 
 /* Hover Boxes */
@@ -610,7 +648,13 @@ input[type="submit"] {
     flex: 1;       /* same as flex-grow: 1; */
 }
 
+/* Subpages */
 
+.pagetitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
 
 
 /* MEYER RESET */
