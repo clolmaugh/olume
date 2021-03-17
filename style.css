@@ -43,7 +43,9 @@ h3 {
 h5 {
   font-family: 'mirtha_displayregular';
   color: rgb(234, 237, 238);
-  height: 20px;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Nav Bar */
@@ -51,12 +53,7 @@ h5 {
 nav {
     background: #222;
     display: flex;
-    height: 10vh;
-    
-}
-
-.menu {   
-    list-style-type: none;
+    height: 11vh;
     
 }
 
@@ -67,15 +64,25 @@ nav {
 #navbar {
     display: flex;
     justify-content: space-between;
+   
+}
+
+#navlogo {
+  height: 70%;
 }
 
 .menu {
     display: flex;
+    list-style-type: none;
     list-style: none;
     text-transform: uppercase;
     align-items: center;
     padding-top: 5px;
     font-family: 'cyrano_demoregular';
+}
+
+.nav.h5 {
+  padding-left: 15px;
 }
 
 .item {
