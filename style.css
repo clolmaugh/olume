@@ -704,6 +704,12 @@ input[type="submit"] {
   margin-top: -10px;
 }
 
+.btmbanner {
+  width: 100vw;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
 .merchflex-container {
   display: flex;
   flex-direction: row;
