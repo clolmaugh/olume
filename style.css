@@ -722,8 +722,9 @@ input[type="submit"] {
   margin-top: 45px;
   margin-bottom: 0px;
   background-color: rgb(6, 28, 41);
-  height: 60vh;
+  height: 80vh;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .merchflex-containertropic {
@@ -732,7 +733,7 @@ input[type="submit"] {
   margin-top: -25px;
   margin-bottom: 0px;
   background-color: rgb(35, 36, 36);
-  height: 120%;
+  height: 80vh;
   align-items: center;
 }
 
@@ -750,6 +751,7 @@ input[type="submit"] {
   margin-left: 200px;
   padding-top: 10px;
   margin-right: 20px;
+  
   
 }
 
