@@ -965,9 +965,6 @@ table {
     width: 80vw;
   }
 
-  /* .col:nth-last-child(1, 2) {
-    margin-bottom: 0;
-  } */
   
   .box img{
     top: 10%;
@@ -990,7 +987,6 @@ table {
   /*   One column */
   .overlay.hover-box {
     grid-gap: 1.5vw;
-    /* padding: 15px 5%; */
     display: flex;
     flex-flow:column nowrap;
   }
