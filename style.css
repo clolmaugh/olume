@@ -368,6 +368,9 @@ a {
   width: 80%;
 }
 
+.ingPg {
+  background-color: rgb(11, 18, 23);
+}
 
 .goldbutton {
   display: flex;
