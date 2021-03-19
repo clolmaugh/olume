@@ -46,10 +46,14 @@ h3 {
 h5 {
   font-family: 'mirtha_displayregular';
   color: rgb(234, 237, 238);
-  font-size: 35px;
+  font-size: 25px;
   padding-top: 10px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+
+.maincards {
+  font-size: 35px;
 }
 
 h4 {
@@ -699,7 +703,7 @@ input[type="submit"] {
 
 .btmbanner {
   width: 100vw;
-  margin-top: 20px;
+  margin-top: -20px;
   margin-bottom: -13px;
 }
 
@@ -749,7 +753,6 @@ input[type="submit"] {
 .merchflex-right {
   width: 40%;
   margin: 5px;
-  margin-right: 150px;
   margin-left: 20px;
 
 }
@@ -946,6 +949,18 @@ table {
     height: -10vh;
   }
 
+  .merchflex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: -10vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .merchflex-container .merchflex-left {
+    margin-left: 0px;
+  }
+
   .merchflex-containertropic .merchflex-left {
     width: 80vw;
   }
@@ -961,10 +976,17 @@ table {
   .productimg {
     width: 80%; 
   }
+  .ft-main {
+    padding: 4rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* For mobile phones: */ 
 @media only screen and (max-width: 500px){
+  footer {
+    position: static;
+  }
   /*   One column */
   .overlay.hover-box {
     grid-gap: 1.5vw;
@@ -996,5 +1018,19 @@ table {
     padding-top: 43%;
   }
 
-  
+  .topslogan {
+    font-size: 20px;
+  }
+  .ft-main {
+    padding: 4rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
 }
+}
+
+
+/* @media (min-device-width: 576px) and (max-device-width: 1024px) and (orientation: landscape)  {
+  footer {
+    position: static;
+  }
+} */
