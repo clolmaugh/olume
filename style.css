@@ -288,6 +288,7 @@ a {
   header.nav, .menu-mobile {
       display: none;
   }
+
   /* END of desktop menu for 768 media query */
 
 }
@@ -353,6 +354,22 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .merchflex-containertropic .merchflex-left {
+    margin-left: 20px;
+  }
+
+  .merchflex-containercelestica .merchflex-left {
+    margin-left: 20px;
+  }
+
+  .merchflex-containertropic .merchflex-right {
+    margin: 0px;
+  }
+
+  .merchflex-containercelestica .merchflex-right {
+    margin: 0px;
+  }
+
   .descriptionImage{
     width: 20%;
   }
@@ -368,6 +385,7 @@ a {
   .goldbutton {
     height: 100px;
   }
+
 }
 
 .ingdescription {
@@ -513,66 +531,6 @@ a {
 }
 
 
-
-/* For tablets: */
-@media only screen and (max-width: 768px) {
-  .hover-box{
-    flex-wrap:wrap;  
-  }
-  
-  .col{
-    flex:unset;
-    width:48%;
-    margin-bottom:15px;
-    height:150px;
-  }
-  
-  .box h5 {
-    padding-top: 25%;
-  }
-  
-  .col:nth-last-child(1, 2) {
-    margin-bottom: 0;
-  }
-  
-  .box img{
-    top: 10%;
-  }
-}
-
-/* For mobile phones: */ 
-@media only screen and (max-width: 500px){
-  /*   One column */
-  .overlay.hover-box {
-    grid-gap: 1.5vw;
-    /* padding: 15px 5%; */
-    display: flex;
-    flex-flow:column nowrap;
-  }
-
-  .col{
-    width: 100%;
-    max-height:380px;
-    height: 80vw;
-  }
-  
-  .box img{
-    /* top: 10%; */
-  }
-
-  .col:last-child {
-    margin-bottom: 0;
-  }
-  
-  .box h5{
-    color: #fff;
-    z-index: 4;
-    text-align: center;
-    text-decoration:none!important;
-    font-size: 8vw;
-    padding-top: 43%;
-  }
-}
 
 /* Banners */
 
@@ -785,9 +743,7 @@ input[type="submit"] {
   margin: 5px;
   margin-left: 200px;
   padding-top: 10px;
-  margin-right: 20px;
-  
-  
+  margin-right: 20px;  
 }
 
 .merchflex-right {
@@ -954,3 +910,91 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 } 
+
+
+
+/* For tablets: */
+@media only screen and (max-width: 768px) {
+  .hover-box{
+    flex-wrap:wrap;  
+  }
+  
+  .col{
+    flex:unset;
+    width:48%;
+    margin-bottom:15px;
+    height:150px;
+  }
+  
+  .box h5 {
+    padding-top: 25%;
+  }
+
+   .merchflex-containercelestica {
+    display: flex;
+    flex-direction: column-reverse;
+    height: -10vh;
+  }
+  
+  .merchflex-containercelestica .merchflex-left {
+    width: 80vw;
+  }
+
+  .merchflex-containertropic {
+    display: flex;
+    flex-direction: column-reverse;
+    height: -10vh;
+  }
+
+  .merchflex-containertropic .merchflex-left {
+    width: 80vw;
+  }
+
+  /* .col:nth-last-child(1, 2) {
+    margin-bottom: 0;
+  } */
+  
+  .box img{
+    top: 10%;
+  }
+
+  .productimg {
+    width: 80%; 
+  }
+}
+
+/* For mobile phones: */ 
+@media only screen and (max-width: 500px){
+  /*   One column */
+  .overlay.hover-box {
+    grid-gap: 1.5vw;
+    /* padding: 15px 5%; */
+    display: flex;
+    flex-flow:column nowrap;
+  }
+
+  .col{
+    width: 100%;
+    max-height:380px;
+    height: 80vw;
+  }
+  
+  .box img{
+    /* top: 10%; */
+  }
+
+  .col:last-child {
+    margin-bottom: 0;
+  }
+  
+  .box h5{
+    color: #fff;
+    z-index: 4;
+    text-align: center;
+    text-decoration:none!important;
+    font-size: 8vw;
+    padding-top: 43%;
+  }
+
+  
+}
