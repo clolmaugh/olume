@@ -299,7 +299,9 @@ a {
 }
 
 .splashvid {
-    width: 100vw;
+    /* width: 100vw; */
+    display:flex;
+    justify-content: center;
     height: 100vh;
     position: absolute;
     z-index: -1;
@@ -689,6 +691,22 @@ input[type="submit"] {
     justify-content: center;
     margin-top: 10%;
 }
+
+.ingtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  
+}
+
+.ingcenteredtext {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+} 
+  
 
 .dividerfeather {
   display: flex;
